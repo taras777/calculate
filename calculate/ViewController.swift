@@ -50,7 +50,7 @@ class ViewController: UIViewController {
       }
     
     }else {
-      /*to our number (x) is added our entered number (Double(sender.tag)) which is divided by 10 raised to the power of power;
+      /*to the entered number (Double(sender.tag)) which is divided by 10 and raised to the power of power is added our number (x);
        function pow is created to exponentiate the first entered number (10) into the power of the second entered number */
       x = x + Double(sender.tag) / pow(10, Double(power))
       power += 1
